@@ -6,7 +6,7 @@ function agregarAmigo(){
     const nombreAmigo = inputAmigo.value.trim();
 
     if (nombreAmigo === ""){
-        alert("Por favor, inserte un Nombre");
+        alert("Por favor, ingresa un nombre válido");
         return;
     }
 
